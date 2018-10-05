@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+ 
+<style>
+    
+    body {
+        background-color: bisque;
+    }
+    .header {
+        text-align: center;
+        font-size: 40px;
+        background-color: aqua;  
+    }
+    
+    .image{
+        width: 25%;
+        display: block;
+        margin: auto;
+    }
+    
+</style>
+    
+<h1 class = "header"> ICE CREAM</h1>
+    
+<img class = "image" src = "https://d1wv4dwa0ti2j0.cloudfront.net/live/img/production/detail/ice-cream/cartons_rich-creamy_classic-chocolate.jpg">
+    
+    <div style = "text-align: center">
+    <p1> Item name</p1><br><br>
+    <p2> chocolate ice cream</p2><br><br>
+    <p3> Price $$$</p3>
+    
+    <h2>
+		 <form>
+ 		 <input type="radio" name="price" value="dollar" checked> $1 <br>
+ 		 <input type="radio" name="price" value="dollar"> $3 <br> 
+ 		 <input type="radio" name="price" value="dollar"> $7 <br> 
+		 <input type="checkbox" value="check">add this item to cart
+		</form> 
+	 </h2> 
+    
+    <h3>
+		<form action="/action_page.php" method="get">
+			<input list="ice creams" name="types">
+			<datalist id="ice creams">
+ 			<option value="orange">
+  			<option value="pecan">
+  			<option value="apple">
+ 			<option value="orginal">
+			</datalist>
+			<br>
+			<input type="checkbox" value="check">add this item to cart
+		</form><br>
+	       </h3>
+
+
+
+		<div>
+		<h4>
+		<form action="/action_page.php">
+		<input type="checkbox" name="price" value="water">add $1 for water
+		<br>
+		<input type="checkbox" name="price" value="soft drink">add $2 for soft drink
+		<br> 
+		<input type="checkbox" value="check">add this item to cart
+		</form> 
+            </h4>
+        
+    <h5>
+				<form action="/action_page.php">
+				Your name:
+				<input type="text" name="firstname">
+				<br>
+				Your phone number:
+				<input type="text" name="lastname">
+				<br>
+				Shipping adress:
+				<input type ="text">
+				</form>
+    </h5>
+    
+    <h6>
+            <form action="/action_page.php">
+                Should we put you on our mailing adress?
+            <input type="checkbox" name="price" value="yes">Yes
+            <input type="checkbox" name="price" value="no">No
+            </form> 
+    </h6>
+  
+
+
+		<h7>
+			<form action="/action_page.php">
+			Message or any particular instructions:
+			<br>
+			<input type ="text">
+			<br>
+			<input type="submit">
+			</form>
+		</h7>
+    </div>
+    
+</html>
