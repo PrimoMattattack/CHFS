@@ -10,7 +10,6 @@
 }
 
 body{
-  /*margin: 0;*/
 }
 
 .column {
@@ -29,12 +28,23 @@ body{
   font-size: 100px;
 }
 
-.panel {
-  flex: 33%;
-  margin-bottom: 20px;
-  background-image: url("https://picturesmania.com/0-0/9987_skalistye-.jpg");
-  font-size: 35px;
-  padding:30px; 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.size {
+
+}
+.tryingToFixImage{
+
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 body{
@@ -48,17 +58,21 @@ body{
     <div class = main>
       <h2> SWEETS R NEAT </h2>
     </div>
-  <nav class = nav>
+ <nav class = nav>
     <div class = row>
     <div class = column><a href = "https://google.com">  Shop </a></div>
-    <div class = column> About </div>
+    <div class = column><a href = "owner.htlm"> About </div>
     <div class = column><a href = "index.html"> Home </a> </div>
     </div>
-   </nav>
+  </nav>
   </head>
 <body>
-  <div class = panel>
+  <div class = container>
+  <img src="https://picturesmania.com/0-0/9987_skalistye-.jpg" height = 50% width: 80%>
+  <div class = text>
     <h1>Sweets are indeed very neat<h1>
+      <h2> Thank you for visting this sweet shop! we have a variety of sweets and treats at our disposal </h2>
   </div>
+</div>
 </body>
 </html>
