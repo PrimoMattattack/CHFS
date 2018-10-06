@@ -9,6 +9,10 @@
   padding-right: 10px;
 }
 
+body{
+  /*margin: 0;*/
+}
+
 .column {
   flex: 33%;
 }
@@ -17,17 +21,44 @@
   display: flex;
 }
 
+.main {
+  padding: 40px;
+  background-color:lightgrey;
+  background-image: url("http://www.digitaljournal.com/img/6/5/4/7/8/0/i/1/5/9/p-large/Oct_08_004.JPG");
+  background-size: contain;
+  font-size: 100px;
+}
+
+.panel {
+  flex: 33%;
+  margin-bottom: 20px;
+  background-image: url("https://picturesmania.com/0-0/9987_skalistye-.jpg");
+  font-size: 35px;
+  padding:30px; 
+}
+
+body{
+  background-image: url("http://wmbf.images.worldnow.com/images/12893924_G.jpg");
+  background-size: contain;
+}
+
 </style>
 
   <head>
+    <div class = main>
+      <h2> SWEETS R NEAT </h2>
+    </div>
   <nav class = nav>
     <div class = row>
     <div class = column><a href = "https://google.com">  Shop </a></div>
     <div class = column> About </div>
-    <div class = column> Home </div>
+    <div class = column><a href = "index.html"> Home </a> </div>
     </div>
    </nav>
   </head>
 <body>
+  <div class = panel>
+    <h1>Sweets are indeed very neat<h1>
+  </div>
 </body>
 </html>
